@@ -223,7 +223,7 @@ p{
 
 /*************Counter Part end**************/
 
-/*************feedback Part end**************/
+/*************feedback Part Start**************/
 
 .feedback{
 
@@ -239,6 +239,7 @@ p{
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
 	border-radius: 2px;
 	transition: 0.3s ease;
+	height: 400px;
 
 }
 .box:hover{
@@ -273,7 +274,7 @@ p{
 
 	width: 100px;
 	height: 100px;
-	border-radius: 50%
+	border-radius: 50%;
 	margin-top: 20px;
 }
 
@@ -282,14 +283,111 @@ p{
 	content: "\f10d";
 	font-family: FontAwesome;
 	width: 40px;
-	height: 40;
+	height: 40px;
 	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
 	color: white;
 	position: absolute;
-	top: 120%
+	top: 120%;
 	left:70%;
-	border-radius: 50%
+	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+/*************feedback Part End**************/
+
+/*************Contact Us Part Start**************/
+
+.contact{
+
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+	position: relative;
+
+}
+
+.contact:before{
+
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(330deg, #9933ff 55%, #fff 0%);
+	z-index: -1;
+}
+
+.contact button{
+
+	border: 1px solid #9933ff;
+	padding: 5px 30px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	border-radius: 100px;
+	color: #9933ff;
+	outline: none;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	background: #9933ff;
+}
+
+form:hover button{
+
+	background: #fff;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);	
+
+}
+
+
+
+/*************Contact Us Part End**************/
+
+/*************Newsletter Part start**************/
+.newsletter{
+
+	width: 100%;
+	height: auto;
+	margin: 80px auto!important;
+	
+}
+.newsletter .n-letter{
+
+	border-radius: 100px 0 0 100px !important;
+	min-width: 150px;
+	min-height: 45px;
+	margin-top: 35px;
+	
+
+}
+
+.newsletter .input-group-text{
+
+	border-radius: 0 100px 100px 0!important;
+	background: #00ccff;
+	color: white;
+	margin-top: 35px;
+}
+
+
+/*************Newsletter Part End**************/
+
+footer{
+
+	
+	background: #00ccff;
+	color: black;
+	height: auto;
+	/*text-transform: uppercase;*/
+
+}
+
+footer .newsletter{
+
+	margin: 0px;
+
 }
