@@ -444,3 +444,120 @@ footer .newsletter{
 }
 
 /*******************foooter End***********/
+
+
+@media (max-width: 768px)
+{
+
+.nav-item{
+
+	text-align: center;
+}
+
+.center-div h1{
+
+	font-size: 1.2rem;
+}
+
+.container1 p{
+
+	font-size: 2.5rem;
+}
+.feedback ,.contact{
+
+	height: auto;
+	margin-top: 50px;
+}
+
+.feedback .box{
+
+	padding: 10px;
+}
+
+.footer-div:nth-child(2){
+
+	text-align: left!important;
+
+
+}
+
+.footer-div{
+
+	margin: 30px 0;
+}
+
+
+
+
+}
+
+@media(max-width: 350px)
+{
+
+/*.center-div h1{
+
+		padding-bottom: 60px;
+}*/
+
+.center-div p{
+
+	padding-top: 0px;
+}
+
+
+.center-btn a{
+
+	/*border: 1px solid #fff;*/
+	
+	padding-bottom: 40px;
+	padding: 8px 20px;
+	border-radius: 100px;
+	color: white;
+	outline: none;
+	font-size: 0.5rem;
+	/*font-weight: 400;*/
+	/*line-height: 1.4;*/
+	text-align: center;
+}
+
+
+
+.container1 p{
+
+	font-size: 1rem;
+	margin-bottom: 70px;
+}
+
+.navbar-toggler
+{
+
+	color: white!important;
+}
+
+.feedback{
+
+	height: auto;
+	margin-top: 50px;
+
+}
+
+.box{
+
+	padding-top: 20px;
+}
+.box p{
+
+	font-size: 0.5rem;
+}
+
+.newsletter h1{
+
+	font-size: 1.2rem;
+}
+
+.counter-s h1{
+
+	font-size: 1.5rem;
+}
+
+}
