@@ -491,6 +491,58 @@ footer .newsletter{
 
 }
 
+@media(max-width: 800px){
+.nav-item{
+
+	text-align: center;
+
+}
+
+.center-div h1{
+
+	font-size: 1.7rem;
+	padding: 3px;
+}
+
+.container1 p{
+
+	font-size: 2.5rem;
+}
+.contact{
+
+	height: auto;
+	margin-top: 50px;
+}
+
+.feedback{
+
+	height: auto;
+}
+
+.feedback .box{
+
+	padding: auto;
+	height: auto;
+}
+
+
+
+/*.footer-div:nth-child(2){
+
+	text-align: left!important;
+
+
+}*/
+
+.footer-div{
+
+
+
+	margin: 30px 0;
+}
+
+}
+
 @media(max-width: 350px)
 {
 
