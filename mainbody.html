@@ -1,68 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>E-Library_body</title>
-	<style type="text/css">
-		*{
-			margin: 0px;
-			padding: 0px;
-		}
+	<title>E-Library_content</title>
 
-		.top{
-			width: 100%;
-			height: 35px;
-			background-color: black;
+	 <link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-		}
-		.browsemenu{
-			width: 100%;
-
-			/*background-color: red;*/
-			height:130px;
-			background:#;
-						background: -webkit-linear-gradient(-180deg , rgba(50,201,14,255) 0%, rgba(31,245,172,255) 100%);
-						background: -o-linear-gradient(-180deg , rgba(50,201,14,255) 0%, rgba(31,245,172,255) 100%);
-						background: -moz-linear-gradient(-180deg , rgba(50,201,14,255) 0%, rgba(31,245,172,255) 100%);
-						background: -ms-linear-gradient(-180deg , rgba(50,201,14,255) 0%, rgba(31,245,172,255) 100%);
-						background: linear-gradient(-180deg , rgba(50,201,14,255) 0%, rgba(31,245,172,255) 100%);
-
-		}
-		#n1{
-	padding:25px;
-	font-family: Cambria;
-	font-size: 25px;
-	text-align: left;
-	color:#0f0d0d;
-}
-
-
-}
-	</style>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous" />
 </head>
 <body>
-	<header>
-		<div class="top">
-			
-		</div>
 
-		
-	</header>
-	<div class="browsemenu">
-		
-		<div id="rectangle_7"  ></div>
-				<div id="n1">
-					<h1>E-Library</h1>
-					<div class="wrapper">
-  <div class="container">
-    <input type="text" class="input" placeholder="search?">
-    <input type="button" value="search" class="close-btn">
-  </div>
+<div class="d-flex header">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Pharmaceutics</a>
+  <a href="#">Pharmaceutical chemistry</a>
+  <a href="#">Pharmacology</a>
+  <a href="#">Pharmacognosy</a>
+   <a href="#">Pharmaceutical Analysis</a>
 </div>
-					
-				</div>
 
+<div id="main">
+
+	<span class="d-flex p-2" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+	
+</div>
+	<div class="logo d-flex"><i class="fa-3x fas fa-university"></i><h1>E - Library</h1></div>
+
+	<div class=" search">
+		<input type="te" name="searchbar" placeholder="searchbar"> <div><a href="#"><i class="fas fa-search"></i></a></div>
 
 	</div>
+
+	<div class="avtaar-div">
+
+				
+
+				<div class="avtaar"><img src="img/Avtaar.png" alt="Avatar" class="avatar-img"></div><a href="#" data-toggle="tooltip" data-placement="bottom" title="sing out!"><i class="fas fa-sign-out-alt"></i></a>
+
+	</div>
+
+</div>
+
+
+
+
+<section class="container bg-danger mt-4">
+
+	
+	
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("sec").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("sec").style.marginLeft = "0";
+}
+</script>
+
+<!-- .............tooltip................ -->
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+
 
 </body>
 </html>
