@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Library_content</title>
+
+	 <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="owl.carousel.css">
+<!-- >>>>>>>>>>>>>>>>>>>>>>>font<<<<<<<<<<<<<<<<<< -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+ </head>
+
+<div class="header">
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Brows By Subject
+        </a>
+        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+
+    <ul class="text-capitalize">
+    <li><a href="#">pharmaceutics<span class="arrow">&#x25bc</span></a>
+      
+      <ul class="sub">
+
+        <li><a href="#"> pharmaceutics 1</a></li>
+        <li><a href="#">physical pharmaceutics<span class="arrow">&#x25b6</span></a>
+
+          <ul class="sub-2">
+                <li><a href="#">physical pharmaceutics 1</a></li>
+                <li><a href="#div-4">physical pharmaceutics 2</a>
+
+          </ul>
+              <li><a href="#">industrial pharmacy<span class="arrow">&#x25b6</span></a>
+              
+                <ul class="sub-2">
+                      <li><a href="#">industrial pharmacy 1</a></li>
+                      <li><a href="#">industrial pharmacy 2</a></li>
+                </ul>
+              </li>
+              <li><a href="#">biopharmaceutics and pharmacokinetics</a></li>
+              <li><a href="#">pharmaceutical engineering</a></li>
+              <li><a href="#">pharmaceutical microbiology</a></li>
+              <li><a href="#">pharmacy practice</a></li>
+              <li><a href="#">novel drug delivery system</a></li>
+
+
+              
+
+      </ul>
+    </li>
+    <li><a href="#">pharmaceutical chemistry<span class="arrow">&#x25bc</span></a>
+
+      <ul class="sub">
+            <li><a href="#">pharmaceutical inorganic chemistry</a></li>
+            <li><a href="#">pharmaceutical organic chemistry<span class="arrow">&#x25b6</span></a>
+
+                <ul class="sub-2">
+                     <li><a href="#">pharmaceutical organic chemistry 1</a></li>
+                     <li><a href="#">pharmaceutical organic chemistry 2</a></li>
+                     <li><a href="#">pharmaceutical organic chemistry 3</a></li>
+
+                </ul>
+
+
+            </li>
+            <li><a href="#">biochemistry</a></li>
+            <li><a href="#">medicinal chemistry<span class="arrow">&#x25b6</span></a>
+
+                <ul class="sub-2">
+                     <li><a href="#">medicinal chemistry1</a></li>
+                     <li><a href="#">medicinal chemistry2</a></li>
+                     <li><a href="#">medicinal chemistry3</a></li>
+                     <li><a href="#">medicinal chemistry4</a></li>
+
+                </ul>
+
+
+            </li>
+
+             
+            <li><a href="#">pharmaceutical analysis<span class="arrow">&#x25b6</span></a>
+
+                <ul class="sub-2">
+                     <li><a href="#">pharmaceutical analysis 1</a></li>
+                     <li><a href="#">instrumental method of analysis </a></li>
+                    
+
+                </ul>
+
+            </li>
+            
+          
+
+      </ul>
+
+
+    </li>
+    <li><a href="#">pharmacology<span class="arrow">&#x25bc</span></a></li>
+    <li><a href="#">pharmacognosy<span class="arrow">&#x25bc</span></a></li>
+    <li><a href="#">micellaneous<span class="arrow">&#x25bc</span></a></li>
+
+
+  </ul>
+          
+        </div>
+      </li>
+     
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+</div>
+
+
+
+<body>
+
+
+  <!-- <nav class="dropdown-nav">
+  <h4>Browse By Subject</h4>
+
+  <ul class="text-capitalize">
+    <li><a href="#">pharmaceutics<span class="arrow">&#x25bc</span></a>
+      
+      <ul class="sub">
+
+        <li><a href="#"> pharmaceutics 1</a></li>
+        <li><a href="#">physical pharmaceutics<span class="arrow">&#x25b6</span></a>
+
+          <ul class="sub-2">
+                <li><a href="#">physical pharmaceutics 1</a></li>
+                <li><a href="#div-4">physical pharmaceutics 2</a>
+
+          </ul>
+              <li><a href="#">industrial pharmacy<span class="arrow">&#x25b6</span></a>
+              
+                <ul class="sub-2">
+                      <li><a href="#">industrial pharmacy 1</a></li>
+                      <li><a href="#">industrial pharmacy 2</a></li>
+                </ul>
+              </li>
+              <li><a href="#">biopharmaceutics and pharmacokinetics</a></li>
+              <li><a href="#">pharmaceutical engineering</a></li>
+              <li><a href="#">pharmaceutical microbiology</a></li>
+              <li><a href="#">pharmacy practice</a></li>
+              <li><a href="#">novel drug delivery system</a></li>
+
+
+              
+
+      </ul>
+    </li>
+    <li><a href="#">pharmaceutical chemistry<span class="arrow">&#x25bc</span></a>
+
+      <ul class="sub">
+            <li><a href="#">pharmaceutical inorganic chemistry</a></li>
+            <li><a href="#">pharmaceutical organic chemistry<span class="arrow">&#x25b6</span></a>
+
+                <ul class="sub-2">
+                     <li><a href="#">pharmaceutical organic chemistry 1</a></li>
+                     <li><a href="#">pharmaceutical organic chemistry 2</a></li>
+                     <li><a href="#">pharmaceutical organic chemistry 3</a></li>
+
+                </ul>
+
+
+            </li>
+            <li><a href="#">biochemistry</a></li>
+            <li><a href="#">medicinal chemistry<span class="arrow">&#x25b6</span></a>
+
+                <ul class="sub-2">
+                     <li><a href="#">medicinal chemistry1</a></li>
+                     <li><a href="#">medicinal chemistry2</a></li>
+                     <li><a href="#">medicinal chemistry3</a></li>
+                     <li><a href="#">medicinal chemistry4</a></li>
+
+                </ul>
+
+
+            </li>
+
+             
+            <li><a href="#">pharmaceutical analysis<span class="arrow">&#x25b6</span></a>
+
+                <ul class="sub-2">
+                     <li><a href="#">pharmaceutical analysis 1</a></li>
+                     <li><a href="#">instrumental method of analysis </a></li>
+                    
+
+                </ul>
+
+            </li>
+            
+          
+
+      </ul>
+
+
+    </li>
+    <li><a href="#">pharmacology<span class="arrow">&#x25bc</span></a></li>
+    <li><a href="#">pharmacognosy<span class="arrow">&#x25bc</span></a></li>
+    <li><a href="#">micellaneous<span class="arrow">&#x25bc</span></a></li>
+
+
+  </ul>
+  
+
+
+</nav>
+
+ -->
+
+<section class="container-fluid m-0 main">
+
+
+    <div class="resource position-fixed">
+
+      <ul class="align-items-center">
+         <a href="#div-4"><li  class="ebook"><i class="fas fa-book p-0"></i><h3>E-Book</h3></li></a>
+          <a href=""><li class="ebook"><i class="fas fa-video p-0"></i><h3>video lecture</h3></li></a>
+          <a href=""><li class="ebook"><i class="fas fa-sticky-note p-0"></i><h3>Thisis</h3></li></a>
+         <a href=""><li class="ebook"><i class="fas fa-comment-alt p-0"></i><h3>notes</h3></li></a>
+          <a href=""><li class="ebook"><i class="fas fa-microscope p-0"></i><h3>reaserch</h3></li></a>
+
+     
+      
+
+    </div>
+
+
+  
+    <div class="container center-div">
+
+
+
+
+
+
+     
+
+      <div class="container carou-1">
+
+
+
+        <div class="title-sub">
+          <h1>test</h1>
+
+        </div>
+
+        <hr class="line-hr">
+
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div>
+
+
+                    </div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+               </div>
+      
+      </div>
+
+
+      <div class="container carou-1">
+
+
+
+        <div class="title-sub">
+          <h1>test</h1>
+
+        </div>
+
+        <hr class="line-hr">
+
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div>
+
+
+                    </div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+               </div>
+      
+      </div>
+
+      <div class="container carou-1">
+
+
+
+        <div class="title-sub">
+          <h1>test</h1>
+
+        </div>
+
+        <hr class="line-hr">
+
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div>
+
+
+                    </div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+               </div>
+      
+      </div>
+
+      <div class="container carou-1">
+
+
+
+        <div class="title-sub">
+          <h1>test</h1>
+
+        </div>
+
+        <hr class="line-hr">
+
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div>
+
+
+                    </div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+               </div>
+      
+      </div>
+
+      <div class="container carou-1">
+
+
+
+        <div class="title-sub">
+          <h1>test</h1>
+
+        </div>
+
+        <hr class="line-hr">
+
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div>
+
+
+                    </div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+                    <div class="item"><div class="book"></div>
+                      <div class="booktitle"><h4>book name</h4></div></div>
+               </div>
+
+               <hr class="line-hr">
+      
+      </div>
+
+    </div>
+
+
+  
+
+
+</section>
+
+<footer class="footer">
+
+      <div class="resource1">
+
+      <ul>
+         <a href="#div-4"><li  class="ebook"><i class="fas fa-book p-0"></i><h3>E-Book</h3></li></a>
+          <a href=""><li class="ebook"><i class="fas fa-video p-0"></i><h3>video lecture</h3></li></a>
+          <a href=""><li class="ebook"><i class="fas fa-sticky-note p-0"></i><h3>Thisis</h3></li></a>
+         <a href=""><li class="ebook"><i class="fas fa-comment-alt p-0"></i><h3>notes</h3></li></a>
+          <a href=""><li class="ebook"><i class="fas fa-microscope p-0"></i><h3>reaserch</h3></li></a>
+
+     
+      
+
+    </div>
+  
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="jquery.min.js"></script>
+<script src="owl.carousel.js"></script>
+
+
+
+<script>
+  
+ $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        320:{
+            items:2
+        },
+        575:{
+
+          items:3
+        },
+
+        
+        600:{
+            items:4
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+</script>
+
+
+
+
+
+
+<!-- .............tooltip................ -->
+
+
+
+
+</body>
+</html>
