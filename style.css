@@ -350,6 +350,11 @@ z-index: 1000;}
 	
 }
 
+.owl-dots{
+
+	display: none!important;
+}
+
 .line-hr{
 
 	border: 2px solid red!important;
