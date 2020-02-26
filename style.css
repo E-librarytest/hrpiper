@@ -447,25 +447,14 @@ z-index: 1000;}
 
 .owl-nav i{
 
-	font-size: 20px;
+	display:none;
 
 }
-.owl-next1{
 
-	float: right;
-	margin-right: 35%;
-	background-color: transparent;
-	border: none;
+.owl-dots{
+
+display:none;
 }
-
-.owl-prev1{
-
-	margin-left: 35%;
-	float: left;
-	background-color: transparent;
-	border: none;
-}
-
 .book{
 
 	width: 120px!important;
