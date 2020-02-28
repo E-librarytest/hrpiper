@@ -1,0 +1,612 @@
+html{ scroll-behavior: smooth; }
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+a{
+
+	color: black!important;
+}
+
+a:hover{
+
+	color: black!important;
+	text-decoration: none!important;
+}
+
+
+
+
+
+
+@keyframes bganimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.navbar{
+
+	background-color: #4834DF;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+
+}
+
+.navbar a{
+
+	color: white!important;
+	font-size: 20px;
+	font-family: 'Righteous' ;
+	word-spacing: 2px;
+}
+
+::placeholder {
+  
+  
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+form .btn{
+
+	/*border: 1px solid #019031;*/
+	background-color: #28a745;
+	font-weight: bold;
+	color: black;
+}
+
+
+/*>>>>>>>>>>>>>>>>drop-donw menu start<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+.dropdown-menu{
+
+	width: 600px;
+	background-color: #4834DF!important;
+	border:2px solid white!important;
+	margin-top: 10px!important;
+}
+
+
+
+.dropdown-menu a{
+
+width: 100%;
+color: white!important;
+text-decoration: none;
+display: block;
+background-color: black;
+text-align: center;
+height: 40px;
+font-family: Times New Roman;
+
+
+}
+
+.dropdown-menu a:hover{
+
+	border-bottom: 1px solid black;
+	transition: 0.5s;
+
+}
+
+.sub2 li{
+
+  
+ 
+  list-style: none;
+
+}
+
+.sub2 li a{
+
+	text-align: center;
+	color: black!important;
+	background-color: white;
+}
+
+.sub2 li :hover{
+
+border-bottom: none;
+
+background-color: red;
+transition: 2s;
+
+
+}
+
+.sub2{
+
+  padding: 0px;
+}
+
+.btn{
+
+  background-color: black;
+  padding: 0px;
+
+}
+
+
+.dropdown-menu ul a{
+
+	font-family: Times New Roman;
+}
+
+
+
+
+
+
+
+
+
+
+.arrow{
+	margin-left: 8px;
+}
+	
+
+
+
+/*>>>>>>>>>>>>>>>>drop-donw menu end<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.main{
+
+	width: 100%;
+	height: auto;
+	background-color: #fafafa;
+	padding-top: 20px;
+	position: relative;
+}
+
+.resource{
+
+	width: 60px;
+	height: 500px;
+	
+	position: absolute;
+	left: 0;
+	margin-top: 100px;
+
+
+}
+.resource ul li{
+
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+
+}
+
+.ebook h3{
+
+	font-size: 0px;
+			
+}
+
+.ebook i{
+
+	font-size: 25px;
+}
+
+.ebook:hover h3{
+
+	font-size: 20px!important;
+	padding-left: 10px; 
+	text-transform: uppercase;
+	font-family: 'Sriracha', cursive!important;
+	padding-top: 10px;
+			
+}
+.resource ul li:hover{
+
+	width: 200px;
+	font-size: 20px!important;
+	color: black;
+	border-radius: 0 20px;
+	transition: 0.3s;
+	
+	
+}
+
+
+
+.center-div{
+
+
+	width: 100%;
+	height: auto;
+	
+	margin-top: 20px;
+
+}
+
+.carou-1{
+
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	
+	
+	
+
+}
+
+.owl-item{
+
+	width: 400px;
+	height: 250px;
+	
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	
+}
+
+/*.owl-dots{
+	display: none!important;
+}*/
+
+.line-hr{
+
+	border: 2px solid red!important;
+	border-radius: 100%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+
+
+}
+
+.owl-nav{
+
+	font-size: 30px;
+	width: 100%!important;
+	height: 40px;
+	/*background-color: red;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	
+
+}
+
+.owl-nav i{
+
+	border: none;
+	background-color: transparent;
+
+}
+.owl-next1 {
+
+
+	background-color: transparent;
+	border: none;
+	
+}
+
+.owl-prev1 {
+
+	
+	background-color: transparent;
+	border: none;
+	
+}
+
+.book{
+
+	width: 150px;
+	height: 200px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+	
+	
+}
+
+.item{
+
+	
+	text-align: center;
+	margin-top: 10px;
+	
+
+}
+
+.item:hover{
+
+
+	transform: translateY(-10px);
+
+}
+
+.title-sub1 h1{
+
+	margin-top: 20px!important;
+	text-align: left;
+
+}
+
+.booktitle{
+
+	text-align: center;
+
+}
+
+.footer{
+
+	display: none;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+/*>>>>>>>>>>>>>>>>>Media Quires<<<<<<<<<<<<<<<<<<<<*/
+
+@media(min-width: 320px) and (max-width: 576px)
+
+{
+
+
+
+.header form .btn{
+
+	
+	margin-left: 40%;
+
+
+
+
+	}
+
+.footer{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	
+	background-color: gray;
+
+}
+
+.footer .resource1 li{
+
+	display:inline-block;
+	
+	margin-top: 25px;
+	margin-left: 30px;
+
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+
+
+.resource1 i{
+
+font-size: 30px;
+
+}
+
+.resource{
+
+	display: none;
+}
+
+
+
+.owl-dots{
+
+	display: none;
+}
+
+.owl-nav {
+
+height: 1px;
+	
+
+}
+.owl-next1{
+
+	display: none
+}
+
+.owl-prev1{
+
+	display: none;
+}
+
+.book{
+
+	width: 120px!important;
+	height: 150px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+	
+	
+}
+
+.item{
+
+	width: 120px!important;
+	height: 180px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+
+	
+} 
+.booktitle h4{
+
+	font-size: 10px;
+
+}
+
+.owl-item{
+
+	width: 120px!important;
+	margin-left: 17.5px;
+
+	height: 220px;
+	margin-top: 10px;
+	margin-right: 0px;
+}
+
+
+
+  
+
+.main{
+
+	padding: 0px!important;
+}
+
+.centerdiv{
+
+	padding: 0px!important;
+}
+
+.owl-stage{
+
+	overflow: hidden;
+	height: 220px;
+	padding-left: 10px;
+}
+
+
+
+.carou-1{
+
+	padding: 0px!important;
+}
+.dropdown-menu{
+
+ width: 100%;
+
+}
+
+.dropdown-menu a{
+
+
+	color: white!important;
+	background-color: black;
+	
+	font-weight: bold;
+
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none!important;
+
+
+}
+.dropdown-menu ul {
+
+	width: 100%;
+}
+
+.dropdown-menu li{
+
+	width: 100%;
+}
+
+
+.dropdown-menu ul a{
+
+	font-family: Times New Roman;
+}
+
+.dropdown-menu .mainul a:hover .sub2 > li{
+
+	display: block;
+	cursor: pointer;
+
+}
+
+.dropdown-menu ul li ul{
+
+	position: absolute;
+	background-color: #fff;
+	left: 0%;
+	display: block;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+
+}
+
+.dropdown-menu ul li:hover ul{
+
+
+	opacity: 1;
+	visibility: visible;
+	
+
+}
+
+.dropdown-menu ul li:hover{
+
+	margin-bottom: 200px;
+}
+
+.dropdown-menu ul li:hover .sub2 li{
+
+	/*margin-bottom: 10px;*/
+	border-bottom: 1px solid white;
+}
+
+.dropdown-menu .sub2 li:hover {
+
+	margin-bottom: 0px;
+
+}
+
+.dropdown-menu .sub2{
+
+	height: auto;
+}
+
+.dropdown-menu .sub2 li a:hover{
+
+	background-color: red;
+
+}
+
+
+}
