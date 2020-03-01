@@ -449,18 +449,75 @@
 
 
 
-  <div class="footer" id="navbar">
+<footer class="footer-section">
+  
+  <div class="container-fluid foot">
 
-          <a href="#div-4"><i class="fas fa-book p-0"></i></a>
-          <a href=""><i class="fas fa-video p-0"></i></a>
-          <a href=""><i class="fas fa-sticky-note p-0"></i></a>
-         <a href=""><i class="fas fa-comment-alt p-0"></i></a>
-          <a href=""><i class="fas fa-microscope p-0"></i></a>
+    <div class="container d-flex justify-content-around foot1" id="foot1">
+    
+      <div class="text-capitalize" id="div-1">
 
-     
-      
+      <h1>Resource link</h1>
+
+      <a href="#"><h5>E-Book</h5></a>
+      <a href="#"><h5>video lecture</h5></a>
+      <a href="#"><h5>Thisis</h5></a>
+      <a href="#"><h5>notes</h5></a>
+      <a href="#"><h5>reaserch</h5></a>
+
+
+      </div>
+      <div style="width: 200px;" id="div-2">
+        <h1>About us</h1>
+
+        <p class="font-weight-bold">H. R. Patel Institute shirpur education society, interactive learning process for enlistment of their social image as well as help them to withstand in googleapisbal competitive environment.</p>
+
+      </div>
+      <div class="footer-icon justify-content-center" id="div-3">
+        <h1>Follow Us</h1>
+
+   
+
+        <a href="#" class="text-center"><i class="fa-3x fab fa-twitter t"></i></a>
+        <a href="#" class="text-center "><i class="fa-3x fab fa-facebook-square f"></i></a>
+        <a href="#" class="text-center "><i class="fa-3x fab fa-youtube y"></i></a>
+
+
+
+
+      </div>
+    </div>
+
+<div class="font-weight-bold text-center mt-4 ml-4 footer-last " style="width: 100%; height: 50px; font-size: 20px;" id="copy"> 
+          <p class="text-center d-flex justify-content-center">Copyright © 2020 H. R. Patel Institute of Pharmaceutical Education and Research, Shirpur All Rights Reserved. Developed By With
+
+      <i class="fas fa-heart icon-h" style="width: 40px; height: 40px;" id="icon-d"></i>
+
+
+
+MAYUR MALI</p>
+
+
+
+
+
+
+
+      </div>
+
+    
 
   </div>
+
+
+
+
+</footer>
+
+
+
+
+
 
 
   
@@ -490,12 +547,17 @@
     loop:true,
     margin:10,
     nav:true,
+    center:true,
     responsive:{
         0:{
             items:2
         },
         320:{
             items:2
+        },
+        400:{
+
+          items:2
         },
         575:{
 
@@ -515,18 +577,7 @@
 </script>
 
 
-<script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos > prevScrollpos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  currentScrollPos = prevScrollpos;
-}
-</script>
+
 
 
 
