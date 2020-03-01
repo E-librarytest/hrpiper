@@ -329,8 +329,8 @@ transition: 2s;
 
 .book{
 
-	width: 150px;
-	height: 200px;
+	width: 130px;
+	height: 160px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 	
 	
@@ -340,6 +340,8 @@ transition: 2s;
 
 	
 	text-align: center;
+	width: 130px;
+	height: 201px;
 	margin-top: 10px;
 	
 
@@ -365,9 +367,85 @@ transition: 2s;
 
 }
 
-.footer{
+.footer-section{
 
-	display: none;
+margin-top: 40px;
+border-top: 2px solid #b2bec3;
+padding-top: 30px;
+background-color: #fafafa;
+
+}
+
+.footer-section h1{
+
+	color: black;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+
+}
+
+.footer-section a,p{
+
+	text-align: left;
+
+}
+.footer-section h5:hover{
+
+	text-decoration: underline;
+
+
+}
+
+.footer-section i{
+
+	display: block;
+	margin-bottom: 10px;
+	
+
+	text-align: center;
+}
+
+.footer-icon .t:hover{
+
+	color: #00acee;
+}
+
+.footer-icon .f:hover{
+
+	color:  #3b5998;
+}
+
+.footer-icon .y:hover{
+
+	color: red;
+}
+
+.icon-h{
+
+	animation: mymove 1s infinite;
+	color: red;
+	position: relative;
+	
+}
+
+  
+  
+
+@keyframes mymove {
+
+
+
+  from{
+
+  	font-size: 1px
+
+  }
+
+
+  to{font-size: 25px}
+ 
 }
 
 
@@ -413,14 +491,13 @@ transition: 2s;
 
 width: 100%;
 height: 50px;
-background-color: red;
+background-color: #6c5ce7;
 justify-content: space-around;
 display: inline-flex;
 
 bottom: 0;
 margin-top: 0px;
-position: fixed;
-z-index: 33;
+
 
 }
 
@@ -434,7 +511,7 @@ font-size: 25px;
 display: flex;
 justify-content: center;
 align-items: center;
-
+color: white;
 height: 50px;
 
 
@@ -479,8 +556,8 @@ height: 1px;
 
 .book{
 
-	width: 120px!important;
-	height: 150px;
+	width: 107px!important;
+	height: 171px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 	
 	
@@ -488,8 +565,8 @@ height: 1px;
 
 .item{
 
-	width: 120px!important;
-	height: 180px;
+	width: 107px!important;
+	height: 171px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 
 	
@@ -528,9 +605,10 @@ height: 1px;
 	padding: 0px!important;
 }
 
-.centerdiv{
+.center-div{
 
 	padding: 0px!important;
+	margin-bottom: 30px;
 }
 
 .owl-stage{
@@ -639,6 +717,155 @@ height: 1px;
 	background-color: red;
 
 }
+
+.footer-section{
+
+margin-top: 40px;
+border-top: 2px solid #b2bec3;
+padding-top: 30px;
+background-color: #fafafa;
+display: block!important;
+height: auto;
+
+}
+
+.footer-section h1{
+
+	color: black;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	text-align: center;
+
+
+}
+
+.footer-section i{
+
+	font-size: 18px;
+}
+
+.foot{
+
+	padding: 0px!important;
+	display: block!important;
+}
+
+#foot1{
+
+	padding: 0px!important;
+	display: block!important;
+	align-items: center!important;
+	
+
+}
+
+#foot1 h1{
+
+	text-align: left;
+	font-size: 25px;
+}
+
+#div-1{
+
+	width: 200px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+#div-1 a{
+
+	text-align: left;
+	font-size: 15px;
+}
+
+#div-1 a h5{
+
+	font-size: 15px;
+}
+
+#div-2{
+
+margin-left: 40px;
+margin-bottom: 20px;
+
+}
+#div-2 p{
+
+	text-align: left;
+	font-size: 15px;
+
+}
+
+#div-3{
+
+	width: 200px;
+	text-align: left;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+#div-3 a i{
+
+	text-align: left;
+	font-size: 20px;
+}
+
+
+
+.footer-section a,p{
+
+	text-align: center;
+	font-size: 10px;
+
+}
+
+.footer-section h5{
+
+	font-size: 10px;
+}
+
+.footer-last {
+
+
+width: 400px!important;
+display: flex;
+align-items: center;
+}
+.footer-last p{
+
+	text-align: left!important;
+	font-size: 10px;
+}
+.icon-h{
+
+	display: block;
+	/*margin-top: 0px!important;*/
+}
+@keyframes mymove {
+
+
+
+  from{
+
+  	font-size: 1px
+
+  }
+
+
+  to{font-size: 10px}
+ 
+}
+
+#copy{
+
+	margin-left: 0px!important;
+	display: none!important;
+}
+
+
 
 
 }
