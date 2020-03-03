@@ -251,34 +251,103 @@ transition: 2s;
 
 }
 
+
+
 .carou-1{
 
 	width: 100%;
 	height: auto;
 	margin-top: 30px;
-	background-color: #fff;
-    border: 1px solid #d1d5da;
-    border-radius: 3px;
-	
-	
-	
+	margin-bottom: 50px;
+	/*background-color: #fff;*/
+    /*border: 1px solid #d1d5da;*/
+    border-radius: 3px solid black;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.center-div h1{
+
+	font-size: 30px;
+	color: black;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.hrline{
+
+	border: 2px solid black;
+	border-radius: 100%;
+}
+
+.parent-box{
+
+	/*background-color: #ddd;*/
+	display: flex;
+	justify-content: center!important;
+	align-items: center;
+	width: 850px!important;
+	border-radius: 3px;
+
+
+}
+
+.owl-stage-outer{
+
+	width: 100%!important;
+	justify-content: center;
+	margin:0px!important;
+	margin-top: 20px!important;
+	margin-bottom: 20px!important;
 }
 
 .owl-item{
 
-	width: 400px;
-	height: 250px;
+	height: 201px!important;
+	width: 130px!important;
+	margin-left: 30px;
+	justify-content: space-around!important;
+
+}
+
+/*.owl-item.active{
+
+	margin-left: 50px!important;
+}*/
+
+.child-box{
+
+
+	height: 201px;
+	width: 130px;
+	/*background-color: red;*/
+	margin-left: 10px;
 	
-	display: flex;
-	justify-content: center;
-	margin-bottom: 20px;
+	margin: 0px;
 	
 }
 
-/*.owl-dots{
+.book-cover img{
+
+	width: 130px;
+	height: 180px;
+	object-fit: cover;
+
+}
+
+.book-title{
+
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+.owl-dots{
 	display: none!important;
-}*/
+}
 
 .line-hr{
 
@@ -295,8 +364,8 @@ transition: 2s;
 
 	font-size: 30px;
 	width: 100%!important;
+	margin-top: 30px;
 	height: 40px;
-	/*background-color: red;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -310,14 +379,20 @@ transition: 2s;
 	border: none;
 	background-color: transparent;
 
+
 }
+
+
 .owl-next1 {
 
 
 	background-color: transparent;
 	border: none;
 	
+	cursor: pointer;
+	
 }
+
 
 .owl-prev1 {
 
@@ -325,47 +400,15 @@ transition: 2s;
 	background-color: transparent;
 	border: none;
 	
-}
-
-.book{
-
-	width: 130px;
-	height: 160px;
-	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-	
+	cursor: pointer;
 	
 }
 
-.item{
-
-	
-	text-align: center;
-	width: 130px;
-	height: 201px;
-	margin-top: 10px;
-	
-
-}
-
-.item:hover{
 
 
-	transform: translateY(-10px);
 
-}
 
-.title-sub1 h1{
 
-	margin-top: 20px!important;
-	text-align: left;
-
-}
-
-.booktitle{
-
-	text-align: center;
-
-}
 
 .footer-section{
 
@@ -379,6 +422,7 @@ background-color: #fafafa;
 .footer-section h1{
 
 	color: black;
+	font-size: 30px;
 	text-shadow: 0 2px 5px rgba(0,0,0,0.3);
 	font-weight: bold;
 	text-transform: capitalize;
@@ -422,36 +466,10 @@ background-color: #fafafa;
 	color: red;
 }
 
-.icon-h{
-
-	animation: mymove 1s infinite;
-	color: red;
-	position: relative;
-	
-}
-
-  
-  
-
-@keyframes mymove {
-
-
-
-  from{
-
-  	font-size: 1px
-
-  }
-
-
-  to{font-size: 25px}
- 
-}
-
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
-  animation: pulse 1s infinite;
+  animation: pulse 0.999s infinite;
   color: red;
   font-size: 20px;
   margin-left: 5px;
@@ -472,7 +490,10 @@ background-color: #fafafa;
     
   }
 
-  to {
+
+    
+
+  to{
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
@@ -511,6 +532,10 @@ background-color: #fafafa;
     transform: scale3d(1, 1, 1);
   }
 }
+
+
+
+
 
 
 
@@ -529,6 +554,26 @@ background-color: #fafafa;
 
 
 /*>>>>>>>>>>>>>>>>>Media Quires<<<<<<<<<<<<<<<<<<<<*/
+
+
+@media(max-width: 320px){
+
+.carou-1{
+
+	padding-left: 0px!important;
+}
+.container{
+
+	padding-right: 0px!important;
+}
+
+.child-box{
+
+	width: 130!important;
+	height: 201!important;
+}
+
+}
 
 @media(min-width: 320px) and (max-width: 576px)
 
@@ -616,47 +661,6 @@ height: 1px;
 	display: none;
 }
 
-.book{
-
-	width: 107px!important;
-	height: 171px;
-	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-	
-	
-}
-
-.item{
-
-	width: 107px!important;
-	height: 171px;
-	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
-
-	
-} 
-.booktitle h4{
-
-	font-size: 15px;
-
-}
-
-.owl-item{
-
-	width: 120px!important;
-	margin-left: 17.5px;
-
-	height: 220px;
-	margin-top: 10px;
-	margin-right: 0px;
-}
-
-.title-sub h1{
-
-	font-size: 18px;
-	margin-top: 5px;
-	margin-bottom: 0px;
-	text-align: center;
-
-}
 
 
 
@@ -673,19 +677,60 @@ height: 1px;
 	margin-bottom: 30px;
 }
 
-.owl-stage{
+.center-div h1{
 
-	overflow: hidden;
-	height: 220px;
-	padding-left: 10px;
+	font-size: 20px;
+	margin-top: 30px;
+	text-align: center;
 }
-
-
 
 .carou-1{
 
-	padding: 0px!important;
+	margin-bottom: 0px;
 }
+.owl-stage-outer{
+
+	width: 400px!important;
+	justify-content: center;
+	margin:0px!important;
+	margin-top: 20px!important;
+	margin-bottom: 20px!important;
+	height: 200px!important;
+	overflow: hidden!important;
+}
+
+.owl-item{
+
+	height: 171px!important;
+	width: 105px!important;
+	margin-left: 20px;
+	justify-content: space-around!important;
+
+}
+
+
+
+.child-box{
+
+
+	height: 170px!important;
+	width: 105px!important;
+	/*background-color: red;*/
+	margin-left: 10px;
+	
+	margin: 0px;
+	
+}
+
+.book-cover img{
+
+	width: 100px!important;
+	height: 165px!important;
+	
+	object-fit: cover;
+
+}
+
 .dropdown-menu{
 
  width: 100%;
@@ -846,6 +891,7 @@ height: auto;
 #div-1 a h5{
 
 	font-size: 15px;
+	font-weight: normal!important;
 }
 
 #div-2{
@@ -858,6 +904,7 @@ margin-bottom: 20px;
 
 	text-align: left;
 	font-size: 15px;
+	font-weight: normal!important;
 
 }
 
@@ -867,12 +914,15 @@ margin-bottom: 20px;
 	text-align: left;
 	margin-left: 40px;
 	margin-bottom: 20px;
+	display: block!important;
 }
 
 #div-3 a i{
 
-	text-align: left;
-	font-size: 20px;
+	
+	font-size: 30px;
+	display: inline-flex!important;
+	
 }
 
 
@@ -892,34 +942,17 @@ margin-bottom: 20px;
 .footer-last {
 
 
-width: 400px!important;
-display: flex;
-align-items: center;
+width: 100%!important;
+display: block;
+text-align: center;
+margin-left: 0px!important;
 }
 .footer-last p{
 
-	text-align: left!important;
+	text-align: center!important;
 	font-size: 10px;
 }
-.icon-h{
 
-	display: block;
-	/*margin-top: 0px!important;*/
-}
-@keyframes mymove {
-
-
-
-  from{
-
-  	font-size: 1px
-
-  }
-
-
-  to{font-size: 10px}
- 
-}
 
 #copy{
 
@@ -927,6 +960,28 @@ align-items: center;
 	display: none!important;
 }
 
+.heart i{
+
+	font-size: 13px;
+
+}
+
+.footer-1{
+
+	margin: 0px!important;
+}
+
+
+}
+
+
+@media(min-width: 577px) and (max-width: 767px){
+
+
+	.resource{
+
+		display: none;
+	}
 
 
 
