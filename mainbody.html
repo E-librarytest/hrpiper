@@ -13,6 +13,7 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" type="text/css" href="owl.carousel.css">
 <!-- >>>>>>>>>>>>>>>>>>>>>>>font<<<<<<<<<<<<<<<<<< -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
@@ -22,7 +23,67 @@
   <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
 
+<style>
+  
+    .wrapper{
 
+  width: 5%;
+  height: 50px;
+  text-align: center;
+  
+ 
+  align-items: center;
+}
+
+
+
+.open{
+
+  font-size: 22px;
+  float: left;
+  margin: 0.3em 0 0 1em;
+  display: block;
+  color: white;
+  cursor: pointer;
+}
+
+.nav2{
+
+  width: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  z-index: 200001;
+  position: fixed;
+  background-color: rgba(34,65,93,0.9);
+  transition: 0.5s;
+  display: block;
+}
+
+.nav2 a{
+
+  color: white!important;
+  clear: left;
+  font-size: 22px;
+  display: block;
+  text-decoration: none;
+  padding: 0.2em 0;
+  transition: 0.3s;
+  margin-left: 20px;
+
+}
+
+.close{
+
+  float: left;
+  margin: 1em 0 0 1em;
+}
+
+.nav2 a:not(:first-child):hover{
+
+  background-color: #f7941d;
+}
+
+</style>
 
 
 
@@ -34,213 +95,116 @@
 
  </head>
 
-<div class="header">
+ <div class="container-fluid d-flex" style="border-bottom: 2px solid #EAEAEB;background-color: #4834DF;">
+
+     <div class="wrapper">
   
-    <nav class="navbar navbar-expand-lg navbar-light">
+     <div class="nav2 text-left" id="nav">
 
-  <a class="navbar-brand" href="#">E - Library</a>
-  <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon "></span>
-  </button>
+      <a href=""><div class="profilebar mr-5 mt-3" style="width: 25px; height: 25px; border-radius: 100%; background-color: red; float: right;"></div></a>
 
-  <div class="collapse navbar-collapse nav-coll" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-     
-      <li class="nav-item dropdown">
-        <a class="btn" data-toggle="collapse" href="#dropdown-menu" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Browse By Subject<span class="arrow">&#x25bc</span>
-        </a>
-        <div class="dropdown-menu" id="dropdown-menu">
+      <a href="javascript:void(0)" class="close" onclick="closeNav()" >&times;</a>
+      <a href="">Pharmaceutical Chemistry</a>
+      <a href="">Pharmaceutical Analysis</a>
+      <a href="">Pharmacology</a>
+      <a href="">Pharmacognosy</a>
+      <a href="">Pharmaceutics</a>
+      <a href="">micellaneous</a>
 
-            <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-   Pharmaceutical Chemistry<span class="arrow">&#x25bc</span>
-  </a>
+</div>
+    <span id="open" class="open" onclick="openNav()">&#9776</span>
 
-<div class="collapse" id="collapseExample">
-  <ul class="sub2">
-                       <li><a href="#">Chemistry</a></li>
-                      <li><a href="#">Organic Chemistry</a></li>
-                      <li><a href="#">Inorganic Chemistry</a></li>
-                      <li><a href="#">Medicinal Chemistry</a></li>
-                  </ul>
+
 </div>
 
-<a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-   Pharmaceutical Analysis<span class="arrow">&#x25bc</span>
-  </a>
+<div class="d-flex justify-content-center align-items-center" style="width: 200px; color: white;"><h4>E-Library</h4></div>
 
-<div class="collapse" id="collapseExample2">
-  <ul class="sub2">
-                      <li><a href="#">Analysis</a></li>
-                      <li><a href="#">Organic Chemistry</a></li>
-                      <li><a href="#">Quality Assurance</a></li>
-                      <li><a href="#">Quality Control</a></li>
-                      <li><a href="#">Pharmaceutical Analysis</a></li>
-                  </ul>
-</div>
 
-  <a data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
-  pharmacology<span class="arrow">&#x25bc</span>
-  </a>
+ <div class="container head1">
 
-<div class="collapse" id="collapseExample3">
-  <ul class="sub2">
-                      <li><a href="#">Anatomy and Physiology</a></li>
-                      <li><a href="#">pharmacology</a></li>
-                      <li><a href="#">Biochemistry</a></li>
-                      <li><a href="#">Clinical Pharmacy</a></li>
-                      <li><a href="#">Pathophysiology</a></li>
-                      <li><a href="#">Environment</a></li>
-                      <li><a href="#">Psychology</a></li>
-                      <li><a href="#">Pathology</a></li>
-                  </ul>
-</div>
 
-  <a data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
-  pharmacognosy<span class="arrow">&#x25bc</span>
-  </a>
+     <input class="pl-2" type="text" name="searchbar" placeholder="search..."  >
 
-<div class="collapse" id="collapseExample4">
-  <ul class="sub2">
-                      <li><a href="#">Pharmacognosy</a></li>
-                      <li><a href="#">Ayurveda’s</a></li>
-                      <li><a href="#">Botany</a></li>
-                      <li><a href="#">Industrial Pharmacognosy</a></li>
-                      <li><a href="#">Phyto-chemistry</a></li>
-                  </ul>
-</div>
+    <i class="fas fa-search"></i>
 
-<a data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
- Pharmaceutics<span class="arrow">&#x25bc</span>
-  </a>
-
-<div class="collapse" id="collapseExample5">
-  <ul class="sub2">
-                    <li><a href="#">Pharmaceutics</a></li>
-                      <li><a href="#">Community Pharmacy</a></li>
-                      <li><a href="#">Drug Store & Business Management</a></li>
-                      <li><a href="#">Microbiology</a></li>
-                      <li><a href="#">Management</a></li>
-                       <li><a href="#">Bio pharmaceutics</a></li>
-                  </ul>
-</div>
-
-<a data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
- micellaneous<span class="arrow">&#x25bc</span>
-  </a>
-
-<div class="collapse" id="collapseExample6">
-  <ul class="sub2">
-                     <li><a href="#">Pharmaceutics</a></li>
-                      <li><a href="#">Community Pharmacy</a></li>
-                      <li><a href="#">Drug Store & Business Management</a></li>
-                      <li><a href="#">Microbiology</a></li>
-                      <li><a href="#">Management</a></li>
-                       <li><a href="#">Bio pharmaceutics</a></li>
-                  </ul>
-</div>
+    
 
 
 
-
-                 
-          
-        </div>
-      </li>
-     
-    </ul>
-
-
-    <form class="form-inline my-2 my-lg-0" id="searchbar">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"  id="input-s">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="seachbtn">Search</button>
-    </form>
   </div>
 
-  <div class="info">
-    <a href="#">about</a>
-    <a href="#" class="sing-up">sing up</a>
-    <a href="#" class="login" id="myBtn12">log in</a>
-    <!-- The Modal -->
-<div id="myModal" class="modal">
+</div>
 
-              <!-- Modal content -->
-              <div class="modal-content">
-                <span class="close">&times;</span>
-               
-              
-
-                    <form action="/action_page.php">
-                          <div class="form-group">
-                            <label for="email">Email address:</label>
-                            <input type="email" class="form-control" placeholder="Enter email" id="email">
-                          </div>
-                          <div class="form-group">
-                            <label for="pwd">Password:</label>
-                            <input type="password" class="form-control" placeholder="Enter password" id="pwd">
-                          </div>
-                          <div class="form-group form-check">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="checkbox"> Remember me
-                            </label><br>
-
-                            <a href=""><label class="text-dark" style="cursor: pointer; font-size: 15px;">Forget Password ?</label></a>
-                          </div>
-                        <div class="button-grp">
-                          <button type="submit" class="btn btn-primary">Submit</button>
-                         
+<div class="header container-fluid" >
 
 
-                        </div>
-                        </form>
-              </div>
-
-   </div>
-
-  </div>
  
 
 
 
+ 
 
-</nav>
-
+<div class="collapse" id="searchbar">
+  <div class="card mb-3" style="border:none;">
+    <div class="d-flex justify-content-center p-2" style="background-color: black; ">
+    
+    
+    <a href="#"><i class="fa-2x fas fa-search text-white ml-3" style="width: 40px;"></i></a>
+</div>
+  </div>
 </div>
 
+   
 
 
 
 
+    
+</div>
 
-<body>
+ <div class="container head2 mt-3 "  style="height: auto;">
+    
+    <div class="tabsection" style="height: auto; ">
+      <ul class="nav nav-tabs nav-justified mb-5 " style="height: 30px; ">
 
+        <li class="nav-item">
+          
+          <a href="#Ebook"  data-toggle="tab"><h5>E-books</h5> <i class="fas fa-book"></i></a>
+        </li>
+         <li class="nav-item">
+         
+          <a href="#video"  data-toggle="tab"><h5>Vidoes</h5><i class="fas fa-video p-0"></i></a>
+        </li>
+         <li class="nav-item">
+          
+          <a href="#Thesis"  data-toggle="tab"><h5>Thesis</h5><i class="fas fa-sticky-note p-0"></i></a>
+        </li>
+         <li class="nav-item">
+          
+          <a href="#"  data-toggle="tab"><h5>Notes</h5><i class="fas fa-comment-alt p-0"></i></a>
+        </li>
+         <li class="nav-item">
+          
+          <a href="#"  data-toggle="tab"><h5>Research</h5><i class="fas fa-microscope p-0"></i></a>
+        </li>
 
+      </ul>
 
-<section class="container-fluid m-0 main">
-
-
-
-    <div class="resource position-fixed" >
-
-      <ul class="align-items-center">
-         <a href="#div-4"><li  class="ebook"><i class="fas fa-book p-0"></i><h3>E-Book</h3></li></a>
-          <a href=""><li class="ebook"><i class="fas fa-video p-0"></i><h3>video lecture</h3></li></a>
-          <a href=""><li class="ebook"><i class="fas fa-sticky-note p-0"></i><h3>Thisis</h3></li></a>
-         <a href=""><li class="ebook"><i class="fas fa-comment-alt p-0"></i><h3>notes</h3></li></a>
-          <a href=""><li class="ebook"><i class="fas fa-microscope p-0"></i><h3>reaserch</h3></li></a>
 
      
-      
 
-    </div>
+
+
+
 
 
   
-    <div class="container center-div">
+    <div class="container tab-content " >
 
 
+      <div class="tab-pane active" id="Ebook">
 
-      <h1>Pharmaceutical Chemistry</h1>
+        <h1>Pharmaceutical Chemistry</h1>
 
         <hr class="hrline">
      
@@ -406,9 +370,8 @@
     <h1>Pharmacology</h1>
 
         <hr class="hrline">
-     
 
-      <div class="container carou-1">
+        <div class="container carou-1">
 
 
 
@@ -419,31 +382,7 @@
           <div class="parent-box owl-carousel  owl-carouselslider">
               
 
-              <div class="child-box">
-                <div class="book-cover">
-                  <a href="#"><img src="img/book4.jpg"></a>
-                 </div> 
-                 <div class="book-title">
-                   
-                   text book
-                 </div>
-         
-
-              </div>
-              
-              <div class="child-box">
-                <div class="book-cover">
-                  <a href="#"><img src="img/book5.jpg"></a>
-                 </div> 
-                 <div class="book-title">
-                   
-                   text book
-                 </div>
-               
-
-              </div>
-
-              <div class="child-box">
+             <div class="child-box">
                 <div class="book-cover">
                   <a href="#"><img src="img/book4.jpg"></a>
                  </div> 
@@ -465,14 +404,59 @@
                
 
               </div>
+               <div class="child-box">
+                <div class="book-cover">
+                  <a href="#"><img src="img/book5.jpg"></a>
+                 </div> 
+                 <div class="book-title">
+                   
+                   text book
+                 </div>
+               
 
+              </div>
+                <div class="child-box">
+                
+                <div class="book-cover">
+                  <a href="#"><img src="img/book2.jpg"></a>
+                 </div> 
+                 <div class="book-title">
+                   
+                   text book
+                 </div>
 
+              </div>
+              <div class="child-box">
+                <div class="book-cover">
+                  <a href="#"><img src="img/book3.jpeg"></a>
+                 </div> 
+                 <div class="book-title">
+                   
+                   text book
+                 </div>
+             
+
+              </div>
+              <div class="child-box">
+                <div class="book-cover">
+                  <a href="#"><img src="img/book4.jpg"></a>
+                 </div> 
+                 <div class="book-title">
+                   
+                   text book
+                 </div>
+         
+
+              </div>
 
 
           </div>
    
 
     </div>
+     
+
+
 
 
     <h1>Pharmacognosy</h1>
@@ -732,6 +716,29 @@
 
     </div>
 
+        
+
+      </div>
+
+       <div class="tab-pane" id="video">
+
+   
+
+        
+
+      </div>
+
+       <div class="tab-pane" id="Thesis">
+
+
+        fasdf
+        
+
+      </div>
+
+
+
+      </div>
 
 
 
@@ -739,7 +746,29 @@
   
 
 
-</section>
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+
+
 
 
 
@@ -778,6 +807,16 @@
 
 
 
+
+      </div>
+
+      <div>
+         <h1>Visit Us</h1>
+
+         <h5>about us</h5>
+         <h5>contact us</h5>
+         <h5>support</h5>
+        
 
       </div>
 
@@ -839,6 +878,8 @@
 
 <script src="jquery.min.js"></script>
 <script src="owl.carousel.js"></script>
+
+
 
 
 
@@ -928,6 +969,32 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+</script>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+<script>
+  
+  function openNav() {
+
+    document.getElementById("open").style.display = "none";
+    document.getElementById("nav").style.width ="50%";
+  }
+function closeNav() {
+
+  document.getElementById("nav").style.width = "0";
+  document.getElementById("open").style.display = "block"
+
 }
 </script>
 
