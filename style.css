@@ -43,6 +43,18 @@ a:hover{
 }
 
 
+/**************************logo text ********************/
+
+#logoname h4{
+
+	font-family: 'Lobster', cursive;
+	letter-spacing: 3px;
+}
+
+
+
+/**************************logo text********************/
+
 
 
 
@@ -65,15 +77,24 @@ a:hover{
 	font-size: 3vw;
 }
 
+
+.headerdiv{
+
+	display: flex;
+	justify-content: space-between;
+	padding-left: 50px!important;
+	padding-right: 50px!important;
+}
+
 .head1{
 
 	
-	width: 50%!important;
+	
 	
 	display: flex;
 	justify-content: center;
-	margin-left: 50px!important;
 	align-items: center;
+	padding: 0!important;
 	
 }
 
@@ -81,6 +102,7 @@ a:hover{
 
 	width: 200px!important;
 	border-radius: 10px!important;
+	border: none;
 }
 
 
@@ -827,45 +849,15 @@ background-color: #fafafa;
 
 
 
-.header form .btn{
+.headerdiv{
 
-	
-	margin-left: 40%;
-
-
-
-
-	}
-
-.info {
-    
-    margin-top: 20px;
+	padding: 5px!important;
+	padding-right: 15px!important;
 }
 
+.head1 input{
 
-.modal-content {
-    background-color: #fefefe;
-    margin-right: 0px;
-    /* margin-right: 170px; */
-    top: 10px;
-    padding: 30px;
-    border: 1px solid #888;
-    width: 100%!important;
-    position: absolute;
-}
-
-.header form .btn {
-    margin-left: 17%;
-}
-#seachbtn{
-
-	margin-left: 120px;
-}
-
-#searchbar{
-
-	
-	align-items: center;
+	width: 120px!important;
 }
 
 #input-s{
@@ -958,7 +950,7 @@ height: 1px;
 	margin-bottom: 30px;
 }
 
-.center-div h1{
+.tab-pane h1{
 
 	font-size: 20px;
 	margin-top: 30px;
