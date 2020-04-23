@@ -4,6 +4,14 @@ html{ scroll-behavior: smooth; }
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
+
+}
+
+body{
+
+	background-color: #f0ede9;
+	background-image: url(https://moviesflix.mobi/wp-content/themes/mts_sociallyviral/images/pattern34.png);
+
 }
 
 a{
@@ -36,6 +44,126 @@ a:hover{
 
 
 
+
+
+.header{
+
+	height: 100%;
+	background-color: black;
+	color: white;
+	
+}
+
+.logo{
+
+	width: 100%;
+
+}
+
+.logo h1{
+
+	font-size: 3vw;
+}
+
+.head1{
+
+	
+	width: 50%!important;
+	
+	display: flex;
+	justify-content: center;
+	margin-left: 50px!important;
+	align-items: center;
+	
+}
+
+.head1 input{
+
+	width: 200px!important;
+	border-radius: 10px!important;
+}
+
+
+
+.head1 i{
+
+	margin-left: 10px;
+	cursor: pointer;
+	color: white;
+
+}
+
+.nav-tabs {
+    
+    border-bottom: none!important;
+}
+
+.nav-item:hover{
+
+
+	border-bottom: 2px solid black!important;
+
+	
+
+}
+
+.nav-item{
+
+	
+	background-color: #ff9f43;
+}
+
+.nav-item i {
+
+	display: none;
+}
+
+@media (max-width: 400px){
+
+ .nav-item i{
+
+ 	color: green;
+ 	display: block;
+ 	font-size: 30px;
+ }
+
+  .nav-item h5{
+
+
+  	display: none;
+  }
+
+
+
+
+ }
+
+
+
+.searchbtn{
+
+	margin-left: 700px;
+
+	
+}
+
+
+
+
+
+
+
+.searchbtn{
+
+	
+	margin-right: 10px;
+}
+
+.searchbtn i{
+
+	color: white;
+}
+
 .navbar{
 
 	background-color: #4834DF;
@@ -51,11 +179,7 @@ a:hover{
 	word-spacing: 2px;
 }
 
-.navbar-collapse{
 
-	width: 300px!important;
-
-}
 
 .info{
 
@@ -72,10 +196,7 @@ a:hover{
 }
 
 
-#input-s{
 
-	margin-left: 220px!important;
-}
 
 ::placeholder {
   
@@ -126,81 +247,10 @@ position: absolute;
 }
 
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  z-index: 222;
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  float: right;
-  margin-right: 170px;
-  top: 10px;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 20%!important;
-  position: absolute;
-
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 
-.button-grp{
 
-	
-	width: 272px;
 
-	align-items: center;
-	justify-content: center;
-
-	
-}
-.button-grp .btn{
-
-	display: block;
-	margin-bottom: 20px;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-}
-
-.button-grp .singup{
-
-	background-color: transparent;
-	border: 1px solid green;
-}
-.button-grp .singup:hover{
-
-	background-color: #4834DF;
-	color: white;
-
-}
 
 /*>>>>>>>>>>>>>>>>drop-donw menu start<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
@@ -375,15 +425,7 @@ transition: 2s;
 
 
 
-.center-div{
 
-
-	width: 100%;
-	height: auto;
-	
-	margin-top: 20px;
-
-}
 
 
 
@@ -401,7 +443,7 @@ transition: 2s;
 	align-items: center;
 }
 
-.center-div h1{
+.tab-pane h1{
 
 	font-size: 30px;
 	color: black;
@@ -695,10 +737,11 @@ background-color: #fafafa;
    margin-right: 5px;
 }
 
+.col-md-4 img{
 
-
-
-
+	width: 350px!important;
+	height: 250px;
+}
 
 
 
