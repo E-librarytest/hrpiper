@@ -56,7 +56,7 @@
   height: 100vh;
   z-index: 200001;
   position: fixed;
-  background-color: rgba(34,65,93,0.9);
+  background-color: rgba(44, 58, 71,0.9);
   transition: 0.5s;
   display: block;
 }
@@ -71,7 +71,25 @@
   padding: 0.2em 0;
   transition: 0.3s;
   margin-left: 20px;
+  text-transform: capitalize;
 
+
+
+}
+
+.nav2 h6{
+
+  color: white;
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.nav2 a:hover{
+
+  text-decoration: underline!important;
 }
 
 .close{
@@ -80,10 +98,10 @@
   margin: 1em 0 0 1em;
 }
 
-.nav2 a:not(:first-child):hover{
+/*.nav2 a:not(:first-child):hover{
 
   background-color: #f7941d;
-}
+}*/
 
 </style>
 
@@ -103,9 +121,15 @@
   
      <div class="nav2 text-left" id="nav">
 
-      <a href=""><div class="profilebar mr-5 mt-3" style="width: 25px; height: 25px; border-radius: 100%; background-color: red; float: right;"></div></a>
+    <dir class="container d-flex justify-content-between align-items-center mb-4">
+
+      <a href=""><div class="profilebar mr-5 mt-3" ></div></a>
 
       <a href="javascript:void(0)" class="close" onclick="closeNav()" >&times;</a>
+
+    </dir>
+
+    <h6> browse by subject</h6>
       <a href="">Pharmaceutical Chemistry</a>
       <a href="">Pharmaceutical Analysis</a>
       <a href="">Pharmacology</a>
@@ -113,7 +137,7 @@
       <a href="">Pharmaceutics</a>
       <a href="">micellaneous</a>
 
-</div>
+    </div>
     <span id="open" class="open" onclick="openNav()">&#9776</span>
 
 
@@ -171,23 +195,23 @@
 
         <li class="nav-item">
           
-          <a href="#Ebook"  data-toggle="tab"><h5>E-books</h5> <i class="fas fa-book"></i></a>
+          <a href="#Ebook"  data-toggle="tab"><h5>E-books</h5> <i class="fas fa-book"></i><div class="icontext" style="width: 100%; font-size: 10px; background-color: red;"><p class="text-center" >E-books</p></div></a>
         </li>
          <li class="nav-item">
          
-          <a href="#video"  data-toggle="tab"><h5>Vidoes</h5><i class="fas fa-video p-0"></i></a>
+          <a href="#video"  data-toggle="tab"><h5>Vidoes</h5><i class="fas fa-video p-0"></i><div class="icontext" style="width: 100%; font-size: 10px; background-color: red;"><p class="text-center" >Vidoes</p></div></a>
         </li>
          <li class="nav-item">
           
-          <a href="#Thesis"  data-toggle="tab"><h5>Thesis</h5><i class="fas fa-sticky-note p-0"></i></a>
+          <a href="#Thesis"  data-toggle="tab"><h5>Thesis</h5><i class="fas fa-sticky-note p-0"></i><div class="icontext" style="width: 100%; font-size: 10px; background-color: red;"><p class="text-center" >Thesis</p></div></a>
         </li>
          <li class="nav-item">
           
-          <a href="#"  data-toggle="tab"><h5>Notes</h5><i class="fas fa-comment-alt p-0"></i></a>
+          <a href="#"  data-toggle="tab"><h5>Notes</h5><i class="fas fa-comment-alt p-0"></i><div class="icontext" style="width: 100%; font-size: 10px; background-color: red;"><p class="text-center" >Notes</p></div></a>
         </li>
          <li class="nav-item">
           
-          <a href="#"  data-toggle="tab"><h5>Research</h5><i class="fas fa-microscope p-0"></i></a>
+          <a href="#"  data-toggle="tab"><h5>Research</h5><i class="fas fa-microscope p-0"></i><div class="icontext" style="width: 100%; font-size: 10px; background-color: red;"><p class="text-center" >Research</p></div></a>
         </li>
 
       </ul>
