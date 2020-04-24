@@ -115,6 +115,14 @@ a:hover{
 
 }
 
+.profilebar{
+
+	width: 30px;
+	height: 30px;
+	border: 1px solid;
+	border-radius: 100%;
+}
+
 .nav-tabs {
     
     border-bottom: none!important;
@@ -129,6 +137,11 @@ a:hover{
 
 }
 
+.icontext{
+
+	display: none;
+}
+
 .nav-item{
 
 	
@@ -140,13 +153,34 @@ a:hover{
 	display: none;
 }
 
-@media (max-width: 400px){
+@media (max-width: 430px){
 
+
+
+.nav2 a{
+
+	font-size: 12px!important;
+}
+
+.nav2 h6{
+
+	color: white;
+	font-size: 15px!important;
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+}
+ .nav-item{
+
+ 	height: 55px!important;
+ 	background-color: #fed330;
+ }
  .nav-item i{
 
- 	color: green;
+ 	color: #1e272e;
  	display: block;
- 	font-size: 30px;
+ 	font-size: 20px;
+ 	margin-top: 10px;
  }
 
   .nav-item h5{
@@ -154,6 +188,17 @@ a:hover{
 
   	display: none;
   }
+
+  .icontext{
+
+  	display: block;
+  	margin-top: 10px;
+  	margin-bottom: 5px;
+  	color: white;
+  	background-color: transparent!important;
+  }
+
+
 
 
 
