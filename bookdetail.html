@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>readbook</title>
+
+
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous" />
+
+	  <style>
+
+	  	.main{
+
+	  		
+	  		display: flex;
+	  		width: 100%;
+	  		height: 100vh;
+	  		justify-content: center;
+	  		align-items: center;
+	  	}
+	  	.readbook{
+
+	  		height: 400px;
+	  	}
+
+	  	.bookimg{
+
+	  		display: flex;
+	  		justify-content: center;
+	  		margin-top: -50px;
+	  	}
+	  	.bookimg img{
+
+	  		height: 240px;
+	  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  	}
+
+	  	.readbtn button{
+
+	  		padding: 10px;
+	  		width: 50%;
+	  		border-radius: 50px;
+	  		background-color: gray;
+	  		color: black;
+	  	}
+	  
+	  	.bookinfo{
+
+	  		height: 400px;
+	  	}
+
+	  	.bookname{
+
+	  		height: 100px;
+	  		margin-top: 48px;
+	  		display: block;
+	  		align-items: center;
+	  		text-transform: capitalize;
+
+	  	}
+	  	.share{
+
+	  		margin-top: 20px;
+	  		display: flex;
+	  		justify-content: space-around;
+	  		
+	  		align-items: center;
+	  		
+	  		
+	  	}
+
+	  	.share i{
+
+	  		cursor: pointer;
+	  		font-size: 24px;
+
+	  	}
+
+	  	.rating{
+
+	  		height: 150px;
+
+	  		display: flex;
+	  		justify-content: center;
+	  		align-items: center;
+
+	  	}
+
+	  	.rating i{
+
+	  		cursor: pointer;
+
+	  	}
+
+	  	.ratingbar{
+
+	  		height: 150px;
+	  		
+	  	}
+
+	  	.totalstar{
+
+	  		height: 150px;
+	  		display: flex;
+	  		justify-content: center;
+	  		align-items: center;
+	  		padding-right: 0px;
+
+	  	}
+
+	  	.star{
+
+	  		padding: 0px;
+	  	}
+
+	  	.totalstar h1{
+
+	  		font-size: 60px;
+
+
+
+
+	  	}
+
+	  	.prog-bar{
+
+	  		display: flex;
+	  		justify-content: center;
+	  		align-items: center;
+	  		padding-left: 0px;
+
+	  	}
+
+	  	.progress{
+
+	  		background-color: white;
+	  		margin-bottom: 10px;
+
+	  	}
+
+	  	.progress-bar{
+
+	  		background-color: red!important;
+	  	}
+
+	  	@media(max-width: 768px){
+
+
+
+	  		.star{
+
+	  			display: flex;
+	  			justify-content: center;
+	  			align-items: center;
+	  		}
+	  		.rating i{
+
+	  		
+	  		width: 100%;
+	  		font-size: 24px;
+	  		margin-top: 15px;
+	  		text-align: center;
+
+	  	}
+
+	  	.bookrow{
+
+	  		margin-top: 48px;
+	  	}
+	  	.rating h5{
+
+	  		font-size: 30px;
+	  	}
+	  	}
+
+	  </style>
+</head>
+<body>
+
+	<div class="container-fluid main">
+
+	<div class="container" style="height: 70vh; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+		
+		<div class="row">
+			
+
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  readbook">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+						<div class="container bookimg">
+							
+							<img src="C:\Users\ACCOUNT\Desktop\Books April 2020\images.jpeg">
+
+							
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="row">
+					
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+						
+						<div class="container readbtn d-flex justify-content-center mt-5">
+							
+							<button class="container"> Read Me</button>
+						</div>
+					</div>
+
+				</div>
+
+
+
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 co-12  bookinfo">
+				<div class="row ">
+
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12  share ">
+						
+						<i class="far fa-heart text-center "><h6 class="mt-2">Add To Favourite</h6> </i>
+						<i class="far fa-bookmark text-center"><h6 class="mt-2">save to offline</h6></i>
+						<i class="far fa-share-square text-center"><h6 class="mt-2"> Share This Book</h6></i>
+					</div>
+					
+					
+				</div>
+
+				<div class="row bookrow">
+					
+
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  bookname">
+						<h3 class="text-center">Book Name</h3>
+
+						<h5 class="text-center">test book</h5>
+
+					</div>
+
+
+					
+
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  text-capitalize mt-5"><h3 class="text-center">author name</h3>
+
+						<h5 class="text-center">john smith</h5> 
+
+					</div>
+				</div>
+
+				<hr style="border: 1px solid">
+
+				<div class="row">
+					<div class="rating col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 ">
+
+						<div class=" container p-0">
+						<h5 class="text-center text-capitalize">rating</h5>
+						<div class="container star">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+
+						</div>
+
+						</div>
+
+					</div>
+					<div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 ratingbar">
+
+						<div class="row">
+							<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 totalstar">
+								<h1>5.1</h1>
+								
+							</div>
+
+							<div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9 prog-bar">
+								
+								<div class="container">
+									  
+									  <div class="progress">
+									    <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+									      5 Star
+									    </div>
+									  </div>
+									  <div class="progress">
+									    <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+									      4 Star
+									    </div>
+									  </div>
+									  <div class="progress">
+									    <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+									      3 Star
+									    </div>
+									  </div>
+									  <div class="progress">
+									    <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:34%">
+									      2 Star
+									    </div>
+									  </div>
+									  <div class="progress">
+									    <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+									      1 Star
+									    </div>
+									  </div>
+
+									</div>
+							</div>
+
+						</div>
+					
+					</div>
+
+				</div>
+
+
+
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+</body>
+</html>
