@@ -14,7 +14,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous" />
 
+  <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+
 	  <style>
+
+	  	*{
+
+	  		padding: 0;
+	  		margin: 0;
+	  		box-sizing: border-box;
+	  		font-family: 'Headland One', serif;
+	  		color: white;
+
+	  	}
 
 	  	.main{
 
@@ -47,8 +59,19 @@
 	  		padding: 10px;
 	  		width: 50%;
 	  		border-radius: 50px;
-	  		background-color: gray;
-	  		color: black;
+	  		
+
+	  		background-color: #342ead!important;
+	  		
+
+	  	
+	  		color: white;
+	  	}
+
+	  	.readbtn button:focus{
+
+	  		
+	  		outline: none;
 	  	}
 	  
 	  	.bookinfo{
@@ -65,9 +88,20 @@
 	  		text-transform: capitalize;
 
 	  	}
+
+	  	.bookrow{
+
+	  		padding-left: 40px;
+	  	}
+	  	.bookrow h3,h5{
+
+	  		color: #ffffea;
+
+	  	}
 	  	.share{
 
 	  		margin-top: 20px;
+	  		margin-bottom: 40px;
 	  		display: flex;
 	  		justify-content: space-around;
 	  		
@@ -118,6 +152,7 @@
 	  	.star{
 
 	  		padding: 0px;
+	  		font-size: 24px;
 	  	}
 
 	  	.totalstar h1{
@@ -150,9 +185,79 @@
 	  		background-color: red!important;
 	  	}
 
+	  	.center-div{
+		    border-radius: 5px;
+		    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+		    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+		    border: none;
+		    margin-bottom: 30px;
+		    -webkit-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+		}
+
+		.center-div:hover	.bookimg img{
+
+	  		
+	  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  		
+
+
+	  	}
+
+		.bookrow{
+		    border-radius: 5px;
+		    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+		    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+		    border: none;
+
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+
+		    margin-bottom: 30px;
+		    -webkit-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+		}
+
+		#rate {
+		    border-radius: 5px;
+		    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+		    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+		    border: none;
+
+    		background: linear-gradient(45deg,#FFB64D,#ffcb80);
+
+		    margin-bottom: 30px;
+		    -webkit-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+		}
+
+		/*.ratingbar{
+
+			border-radius: 5px;
+		    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+		    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+		    border: none;
+
+    		background: linear-gradient(45deg,#FF5370,#ff869a);
+
+		    margin-bottom: 30px;
+		    -webkit-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+
+		}*/
+
+
+
 	  	@media(max-width: 768px){
 
+	  		.readbook{
 
+	  			height: 320px;
+	  		}
+
+	  		hr{
+
+	  			border: none!important;
+	  		}
 
 	  		.star{
 
@@ -170,14 +275,79 @@
 
 	  	}
 
+	  	.share{
+
+	  		margin-top: 230px;
+	  		border: 1px solid;
+
+	  	}
+
+	  	.share h6{
+
+	  		color: black!important;
+	  	}
+
+	  	
+
 	  	.bookrow{
 
-	  		margin-top: 48px;
+	  		margin-top: 60px;
+	  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  		margin-bottom: 40px;
+	  		
+	  	}
+
+	  	.bookrow h3,h5{
+
+	  		color: white;
 	  	}
 	  	.rating h5{
 
 	  		font-size: 30px;
 	  	}
+	  	.readbtn button {
+
+	  		width: 80%;
+	  		background-color: transparent;
+	  		border: 1px solid #342ead;
+	  	}
+
+	 
+	  	.share i{
+
+	  		
+	  		font-size: 30px;
+	  		color: black!important;
+
+
+	  	}
+
+
+
+	  .center-div:hover .share {
+
+	  		color: #black!important;
+	  	}
+
+	  
+
+	  	.share h6{
+
+	  		font-size: 12px;
+	  		margin-top: 20px!important;
+	  	}
+
+	  	.bookname{
+
+	  		height: 80px;
+	  	}
+
+	  	.author{
+
+	  		margin-top: 20px!important;
+	  		margin-bottom: 40px!important; 
+	  	}
+
 	  	}
 
 	  </style>
@@ -186,7 +356,8 @@
 
 	<div class="container-fluid main">
 
-	<div class="container" style="height: 70vh; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+	<div class="container center-div" style="height: 70vh;     box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+	 background: linear-gradient(120deg,#4099ff,#73b4ff);">
 		
 		<div class="row">
 			
@@ -196,7 +367,7 @@
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 						<div class="container bookimg">
 							
-							<img src="img/images.jpeg">
+							<img src="C:\Users\ACCOUNT\Desktop\Books April 2020\images.jpeg">
 
 							
 						</div>
@@ -213,9 +384,36 @@
 							
 							<button class="container"> Read Me</button>
 						</div>
+
+						
 					</div>
 
+					
+
 				</div>
+
+				<div class="row">
+					
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+						
+						<div class="container d-flex justify-content-center mt-5">
+							
+							<p> 
+						ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.
+						</p>
+						</div>
+
+						
+					</div>
+
+					
+
+				</div>
+
+				
 
 
 
@@ -237,30 +435,31 @@
 					
 
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  bookname">
-						<h3 class="text-center">Book Name</h3>
+						<h3>Book Name</h3>
 
-						<h5 class="text-center">test book</h5>
+						<h5 >test book</h5>
 
 					</div>
 
 
 					
 
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  text-capitalize mt-5"><h3 class="text-center">author name</h3>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 author text-capitalize mt-5">
+						<h3 >author name</h3>
 
-						<h5 class="text-center">john smith</h5> 
+						<h5 >john smith</h5> 
 
 					</div>
 				</div>
 
 				<hr style="border: 1px solid">
 
-				<div class="row">
-					<div class="rating col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 ">
+				<div class="row" id="rate">
+					<div class="rating col-xl-4 col-lg-4 col-md-4 col-sm-4 p-0 col-12 ">
 
 						<div class=" container p-0">
 						<h5 class="text-center text-capitalize">rating</h5>
-						<div class="container star">
+						<div class="container text-center star">
 							<i class="far fa-star"></i>
 							<i class="far fa-star"></i>
 							<i class="far fa-star"></i>
@@ -272,7 +471,7 @@
 						</div>
 
 					</div>
-					<div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 ratingbar">
+					<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 ratingbar">
 
 						<div class="row">
 							<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 totalstar">
